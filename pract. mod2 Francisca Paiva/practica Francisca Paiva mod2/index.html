@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="/practica Francisca Paiva mod2/modificadores/style.css"
+      rel="stylesheet"
+    />
+
+    <title>Portafolio personal</title>
+
+    <nav
+      class="navbar navbar-expand-md bg-danger sticky-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portafolio</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" id="link1" href="#">Habilidades</a>
+              <!--? Sección 1 primera opción "Habilidades" navbar -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link2" href="#">Proyectos</a>
+              <!--? Sección 2 segunda opción "Proyectos" navbar -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link3" href="#">Contactame</a>
+              <!--? Sección 3 tercer opción "Contactame" navbar -->
+            </li>
+          </ul>
+          <button class="btn btn-outline-dark text-light" type="submit">
+            Contratame
+            <!--? Sección 4 primer boton  "Contratame" navbar -->
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!--? Termino Sección nav -->
+  </head>
+  <body>
+    <section class="container">
+      <!--? Contenedor principal -->
+      <section class="header">
+        <!-- Link 1 reference-->
+        <h1>Hola soy Francisca Paiva,</h1>
+        <h2>estudiante en Python.</h2>
+      </section>
+      <header class="header">
+        <h1>Habilidades</h1>
+      </header>
+
+      <section class="Habilidades" id="habilidades">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <!--! Estos son los botones inferiores -->
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <!--! Estos son los botones inferiores -->
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- Estos son los bloques de texto  -->
+              <img src="assets/ejemplo 1.png" class="d-block w-25 h-25" />
+              <div class="carousel-caption d-md-block caption-top">
+                <h5>HTML</h5>
+                <p>Estructuración de una página web.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/ejemplo 2.png" class="d-block w-25 h-25" />
+              <div class="carousel-caption d-md-block caption-top">
+                <h5>CSS</h5>
+                <p>
+                  Simplifica el proceso de dar estilo en las páginas web para
+                  sean visualmente atractivas y fáciles de usar.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/ejemplo3.png" class="d-block w-25 h-25" />
+              <div class="carousel-caption d-md-block caption-top">
+                <h5>Python</h5>
+                <p>
+                  Es un lenguaje de programación popular para varios propósitos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <header class="header">
+        <div>
+          <h1>Proyectos</h1>
+        </div>
+      </header>
+
+      <section class="Proyectos" id="proyectos">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="Assets/helados_crema.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Proyecto Helados de crema</h4>
+            <p class="card-text">
+              Realizado en clases durante modulo 2 con el fin de comprender
+              funciones básicas de HTML y CSS.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="Assets/portafolio 2.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Proyecto Portafolio</h4>
+            <p class="card-text">
+              Realizado con el fin de ejercitar y probar conceptos vistos en
+              clases.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="Assets/perfil1.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Proyecto Perfil</h4>
+            <p class="card-text">Proyecto realizado en clases.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="column">Contactame</h2>
+
+        <form class="formulario">
+          <div class="form-row">
+            <div>
+              <label for="validationCustom01">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                placeholder="Ingrese su nombre"
+                value=""
+                required
+              />
+            </div>
+            <div>
+              <label for="validationCustom02">Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                placeholder="Ingrese su apellido"
+                value=""
+                required
+              />
+            </div>
+            <div>
+              <label for="validationCustomUsername">Contacto</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend"
+                    >Correo</span
+                  >
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustomUsername"
+                  placeholder=""
+                  aria-describedby="inputGroupPrepend"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="validationCustom03">Ciudad</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom03"
+                  placeholder="Ciudad"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck">
+                  Aceptar terminos y condiciones.
+                </label>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-danger" type="submit">Confirmar</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </section>
+
+    <script src="/practica Francisca Paiva mod2/modificadores/script.js"></script>
+  </body>
+</html>
